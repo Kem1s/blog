@@ -1,4 +1,4 @@
-import { defineUserConfig } from "vuepress"
+import { defineUserConfig, type Plugin } from "vuepress"
 import recoTheme from "vuepress-theme-reco"
 import { viteBundler } from "@vuepress/bundler-vite"
 import { webpackBundler } from "@vuepress/bundler-webpack"
@@ -119,21 +119,20 @@ export default defineUserConfig({
         // },
     }),
     // debug: true,
+
     plugins: [
         demoblockPlugin({
             customClass: "demoblock-custom",
             theme: "github-light",
             cssPreprocessor: "scss",
-            scriptImports: ["import * as Vue from 'vue'"],
-            scriptReplaces: [{ searchValue: /const ({ defineComponent as _defineComponent }) = Vue/g, replaceValue: "const { defineComponent: _defineComponent } = Vue" }],
             locales: {
                 "/": {
-                    hideText: "隐藏代码",
-                    showText: "显示代码",
-                    copyButtonText: "复制代码",
-                    copySuccessText: "复制成功",
+                    "hide-text": "隐藏代码",
+                    "show-text": "显示代码",
+                    "copy-button-text": "复制代码",
+                    "copy-success-text": "复制成功",
                 },
             },
-        }),
+        }) as unknown as Plugin,
     ],
 })
