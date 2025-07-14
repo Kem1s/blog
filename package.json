@@ -5,7 +5,6 @@
     "repository": "git@github.com:recoluan/vuepress-theme-reco-demo.git",
     "author": "reco_luan <recoluan@outlook.com>",
     "license": "MIT",
-    "base": "/blog/",
     "scripts": {
         "dev": "vuepress dev .",
         "start": "vuepress dev .",
