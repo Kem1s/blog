@@ -19,10 +19,6 @@ jobs:
 
             - name: 设置 yarn
               uses: borales/actions-yarn@v3
-              with:
-                  # 使用 yarn 作为包管理器
-                  useYarn: true
-                  version: 1.22.19
 
             - name: 设置 Node.js
               uses: actions/setup-node@v4
