@@ -7,6 +7,7 @@ export default defineUserConfig({
   title: "vuepress-theme-reco",
   description: "Just playing around",
   bundler: viteBundler(),
+  base:'/blog/',
   // bundler: webpackBundler(),
   theme: recoTheme({
     logo: "/logo.png",
