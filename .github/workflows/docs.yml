@@ -17,10 +17,12 @@ jobs:
                   # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
                   fetch-depth: 0
 
-            - name: 设置 pnpm
-              uses: pnpm/action-setup@v4
+            - name: 设置 yarn
+              uses: borales/actions-yarn@v3
               with:
-                  version: 9
+                  # 使用 yarn 作为包管理器
+                  useYarn: true
+                  version: 1.22.19
 
             - name: 设置 Node.js
               uses: actions/setup-node@v4
