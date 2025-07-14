@@ -121,7 +121,11 @@ export default defineUserConfig({
     // debug: true,
     plugins: [
         demoblockPlugin({
-            // 配置项
+            customClass: "demoblock-custom",
+            theme: "github-light",
+            cssPreprocessor: "scss",
+            scriptImports: ["import * as Vue from 'vue'"],
+            scriptReplaces: [{ searchValue: /const ({ defineComponent as _defineComponent }) = Vue/g, replaceValue: "const { defineComponent: _defineComponent } = Vue" }],
             locales: {
                 "/": {
                     hideText: "隐藏代码",
