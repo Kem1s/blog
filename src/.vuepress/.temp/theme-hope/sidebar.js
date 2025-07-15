@@ -1,0 +1,1 @@
+export const sidebarData = {"/demojs/":[{"text":"Vue2","prefix":"vue2/","collapsible":true,"children":["1"]},{"text":"Vue3","prefix":"vue3/","collapsible":true,"children":["1"]}],"/demoOther/":[{"text":"TS应用","prefix":"TS应用/","collapsible":true,"children":["1","3","2"]},"typescript"]};

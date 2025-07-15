@@ -1,0 +1,1 @@
+export const store = JSON.parse("[\"/demojs/\",\"/demoOther/typescript.html\",\"/demoOther/TS%E5%BA%94%E7%94%A8/1.html\",\"/demoOther/TS%E5%BA%94%E7%94%A8/2.html\",\"/demoOther/TS%E5%BA%94%E7%94%A8/3.html\",\"/demojs/vue2/1.html\",\"/intro.html\",\"/demojs/vue3/1.html\"]");
