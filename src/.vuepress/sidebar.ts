@@ -7,7 +7,7 @@ export default sidebar({
             text: "前端相关", // 标题
             icon: "book", // 图标
             prefix: "demojs/", // 自动生成目录
-            link: "demojs/vue2/", // 点击左侧标题,默认打开的页面
+            link: "demojs/", // 点击左侧标题,默认打开的页面
             children: "structure",
         },
         {

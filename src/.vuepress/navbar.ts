@@ -15,6 +15,11 @@ export default navbar([
                 prefix: "TS应用/",
                 children: ["1", "2", "3"],
             },
+            {
+                text: "面试题相关",
+                prefix: "待整理/",
+                children: ["1", "2", "3"],
+            },
         ],
     }, // 其他 (方式2:对象式配置,显示顶部导航+子菜单,prefix匹配目录,children可以是完整配置或者文件名)
     // "/demo/", // 官方功能配置演示

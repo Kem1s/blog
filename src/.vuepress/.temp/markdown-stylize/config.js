@@ -1,3 +1,3 @@
-import "D:/code/test_code/my-docs/node_modules/.pnpm/@mdit+plugin-spoiler@0.22.1_markdown-it@14.1.0/node_modules/@mdit/plugin-spoiler/spoiler.css"
+import "D:/code/test_code/vuepress_vue3/node_modules/.pnpm/@mdit+plugin-spoiler@0.22.1_markdown-it@14.1.0/node_modules/@mdit/plugin-spoiler/spoiler.css"
 
 

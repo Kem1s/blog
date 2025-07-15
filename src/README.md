@@ -4,6 +4,7 @@ layout: Blog
 icon: house
 title: 博客主页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+#bgImage: assets/images/bg.svg
 bgImage: assets/images/bg.png
 heroText: 小铭的博客
 heroFullScreen: true
@@ -46,4 +47,4 @@ footer: 为了更美好的明天而战！
 
 没有高深的技术，只有简短的踩坑历程。
 
-<!-- 相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。 -->
+<!-- 环境 node: v22.16.0 -->
