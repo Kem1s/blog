@@ -3,7 +3,8 @@ home: true
 layout: Blog
 icon: house
 title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+# heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: coin.svg #主页背景图上的logo
 #bgImage: assets/images/bg.svg
 bgImage: assets/images/bg.png
 heroText: 小铭的博客

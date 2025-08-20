@@ -11,7 +11,8 @@ export default hopeTheme({
         url: "https://kem1s.github.io/blog/",
     },
 
-    logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+    // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+    logo: "coin.svg", // 左上logo
 
     repo: "https://github.com/Kem1s/blog", // 右上角github图标跳转地址
 
